@@ -1,4 +1,4 @@
-# Advanced Realistic Skin Shader for Unity
+# Realistic Skin Shader for Unity
 
 This repository contains an advanced realistic skin shader for Unity. It's designed to achieve a high level of realism in rendering skin materials. The shader is written in CG within Unity's ShaderLab framework and is based on the Lambertian lighting model.
 
