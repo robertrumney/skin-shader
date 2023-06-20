@@ -1,6 +1,5 @@
 Shader "Custom/RealisticSkin" 
 {
-
     Properties
     {
         _MainTex("Albedo (RGB)", 2D) = "white" {}
