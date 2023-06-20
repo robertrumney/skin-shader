@@ -1,5 +1,6 @@
 Shader "Custom/RealisticSkin" 
 {
+
     Properties
     {
         _MainTex("Albedo (RGB)", 2D) = "white" {}
@@ -13,7 +14,10 @@ Shader "Custom/RealisticSkin"
 
         SubShader
         {
-            Tags { "RenderType" = "Opaque" }
+            Tags 
+            { 
+                "RenderType" = "Opaque" 
+            }
 
             CGPROGRAM
             #pragma surface surf Lambert
@@ -59,5 +63,6 @@ Shader "Custom/RealisticSkin"
             }
             ENDCG
         }
+
             FallBack "Diffuse"
 }
