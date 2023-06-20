@@ -11,7 +11,7 @@ This repository contains an advanced realistic skin shader for Unity. It's desig
 - **Fresnel Effect**: Implements Fresnel falloff to simulate the varying reflectivity at different angles.
 - **Customization**: Easily tweakable properties for subsurface scattering, specular gloss, and more.
 
-![Example Image](./example.jpg)
+![Example Image](example.png)
 
 *Example image showing the realistic skin rendering with the shader.*
 
