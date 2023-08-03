@@ -1,11 +1,11 @@
-Shader "Custom/RealisticSkin" 
+Shader "Custom/RealisticSkin"
 {
     Properties
     {
         _MainTex("Albedo (RGB)", 2D) = "white" {}
         _NormalMap("Normal Map", 2D) = "bump" {}
         _SpecularMap("Specular Map", 2D) = "black" {}
-        _SubsurfaceColor("Subsurface Color", Color) = (1, 0.2, 0.2, 1)
+        _SubsurfaceColor("Subsurface Color", Color) = (1, 0.9137255, 0.8196079, 1)
         _SubsurfaceStrength("Subsurface Strength", Range(0, 1)) = 0.5
         _SpecularGloss("Specular Gloss", Range(0, 1)) = 0.5
         _FresnelFalloff("Fresnel Falloff", Range(0, 5)) = 1.0
@@ -13,9 +13,9 @@ Shader "Custom/RealisticSkin"
 
         SubShader
         {
-            Tags 
-            { 
-                "RenderType" = "Opaque" 
+            Tags
+            {
+                "RenderType" = "Opaque"
             }
 
             CGPROGRAM
@@ -29,14 +29,14 @@ Shader "Custom/RealisticSkin"
             float _SpecularGloss;
             float _FresnelFalloff;
 
-            struct Input 
+            struct Input
             {
                 float2 uv_MainTex;
                 float2 uv_NormalMap;
                 float2 uv_SpecularMap;
             };
 
-            void surf(Input IN, inout SurfaceOutput o) 
+            void surf(Input IN, inout SurfaceOutput o)
             {
                 fixed4 albedo = tex2D(_MainTex, IN.uv_MainTex);
                 fixed3 normal = UnpackNormal(tex2D(_NormalMap, IN.uv_NormalMap));
