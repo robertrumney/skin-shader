@@ -13,13 +13,11 @@ This repository contains an advanced realistic skin shader for Unity. It's desig
 
 ![Example Image](example.png)
 
-*Example image showing the realistic skin rendering with the shader.*
-
 ## Getting Started
 
 ### Prerequisites
 
-- Unity 2017.1 or newer
+- Unity 2018.1 or newer
 
 ### Installation
 
