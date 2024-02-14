@@ -28,7 +28,7 @@ This repository contains an advanced realistic skin shader for Unity. It's desig
 ### How to Use
 
 1. In Unity, create a new material (Right-click in Assets > Create > Material).
-2. Assign the shader to the material by selecting the material, and in the Inspector, go to Shader, and select Custom > AdvancedRealisticSkin.
+2. Assign the shader to the material by selecting the material, and in the Inspector, go to Shader, and select Custom > RealisticSkin.
 3. Assign the material to a GameObject with a Mesh Renderer.
 4. In the material's properties, you can assign textures and tweak the parameters for subsurface scattering, specular gloss, etc.
 
