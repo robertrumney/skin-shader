@@ -19,12 +19,6 @@ This repository contains an advanced realistic skin shader for Unity. It's desig
 
 - Unity 2018.1 or newer
 
-### Installation
-
-1. Clone this repository or download it as a ZIP file.
-2. Open your Unity project.
-3. Import the shader by dragging the shader file into your project's Assets panel.
-
 ### How to Use
 
 1. In Unity, create a new material (Right-click in Assets > Create > Material).
